@@ -9,7 +9,7 @@ cd ~/dCentral/Alvarium/Cerium/COMM/AirChat/
 
 perl install-modules-airchat-debian.pl
 
-cd ~/Cerium/dCentral/COMM/OOS/
+cd ~/dCentral/Alvarium/Cerium/COMM/OOS/
 
 # import OpenBook db into mysql-server:
 mysql -u root -p -e "create database aCeriUmdb";
