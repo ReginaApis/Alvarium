@@ -5,33 +5,6 @@
 # update and install all core system scripts
 # run circuittree cfg scripts to install all base CTree system stuff
 # download and install ubos virt container
-# docker pull and run cozy docker images
-#install docker 
-adduser an0n
-
-sudo apt-get update
-
-wget https://download.docker.com/linux/debian/gpg 
-sudo apt-key add gpg
-echo "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee -a /etc/apt/sources.list.d/docker.list
-sudo apt-get update
-sudo apt-get -y install docker-ce
-sudo systemctl enable docker
-sudo systemctl start docker
-#allow nonroot
-sudo groupadd docker
-sudo useradd an0n
-sudo usermod -aG docker an0n
-
-## SECURITY OS RUNNING W OPENVAS, SNORT KIT w DEFENSE
-# install parrotsec docker
-docker pull parrotsec/parrot
-docker run -ti --rm --network host parrotsec/parrot
-
-docker pull parrotsec/metasploit
-docker run -ti --network host parrotsec/metasploit
-
-cd ..
 su
 apt-get update
 npm install -g dat
