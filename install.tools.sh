@@ -5,7 +5,7 @@
 su
 mkdir /root/.cpanplus/custom-sources
 
-cd ~/Cerium/dCentral/COMM/AirChat/
+cd ~/dCentral/Alvarium/Cerium/COMM/AirChat/
 
 perl install-modules-airchat-debian.pl
 
@@ -24,4 +24,4 @@ sudo echo "<?php phpinfo(); ?>" | sudo tee index.php
 
 # docker pull cozy/full
 
-cd ~/Cerium/dCentral/
+cd ~/dCentral/Alvarium/Cerium/
