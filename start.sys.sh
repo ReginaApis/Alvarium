@@ -4,7 +4,7 @@
 
 # Start all system scripts and services
 
-cd /home/pirate/Cerium/dCentral/CORE/
+cd /home/pirate/Alvarium/Cerium/CORE/
 
 # FreeNode network services startup and run:
 # cd /home/pirate/Cerium/CORE/freedombone/
@@ -15,11 +15,11 @@ freedombone-mesh
 
 # docker run -d -p 3456:444 bashrc/docker-freedombone
 
-cd /home/pirate/Cerium/dCentral/CORE/ubos/
+cd /home/pirate/Alvarium/Cerium/CORE/ubos/
 
 systemd-nspawn --boot --network-veth --machine ubos --directory ubos
 
-cd /home/pirate/Cerium/dCentral/COMM/AirChat/
+cd /home/pirate/Cerium/COMM/AirChat/
 
 perl airchat.pl
 
@@ -27,4 +27,4 @@ perl airchat.pl
 
 # docker run -d -p 6500:443 cozy/full
 
-cd /home/pirate/Cerium/dCentral/
+cd /home/pirate/Alvarium/Cerium/
