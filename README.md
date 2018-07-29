@@ -1,7 +1,7 @@
 # dCentral
 
 To run this standalone wo install script:
-
+````
 #!bin/bash
 # The Building of The Alvarium Cerium * The h1v3 n0d3 *
 
